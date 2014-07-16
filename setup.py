@@ -17,9 +17,9 @@ commands = {}
 if os.path.exists('src/main/python/teamcity_test_runner_extension'):
     sys.path.insert(0, 'src/main/python')
 
-    from teamcity_test_runner_extension.teamcityTestRunner import TeamcityTestRunnerCommand
+    #from teamcity_test_runner_extension.teamcityTestRunner import TeamcityTestRunnerCommand
 
-    commands['test'] = TeamcityTestRunnerCommand
+    #commands['test'] = TeamcityTestRunnerCommand
 
 
 class completeClean(clean):
